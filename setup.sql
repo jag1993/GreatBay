@@ -1,0 +1,9 @@
+CREATE DATABASE greatbay;
+USE greatbay;
+CREATE TABLE items(
+id INTEGER(11) AUTO_INCREMENT NOT NULL,
+category VARCHAR(30) NOT NULL,
+item_name VARCHAR(30) NOT NULL,
+starting_price INTEGER(4),
+PRIMARY KEY (id)
+)
